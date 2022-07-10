@@ -13,82 +13,19 @@ body {
 
 
 
-.headings_for_fourth{
-    color:black;
-    margin-top: 30px;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-}
-.paragraphs_for_fourth{
-    font-family: 'Hind', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    margin-left: 250px;
-    margin-right: 250px;
-    
-    
-    
+
+.image_sizing_fifth_page{
+    height:350px ;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
 
-
-
-
-
-
-
-
-.Nested_Container{
-    height: 180px;
-    width: 335px;
-    background-color: #FEF4F5;
-    display: flex;
-    border-radius: 8px;
-    margin: 10px;
-    flex-flow: wrap row;
-}
-
-.image_sizing{
-    height: 56px;
-    width: 56px;
-    padding-top: 40px;
-}
-
-.description{
-    height: 120px;
-    width: 250px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.description h1{
-    font-size: 20px;
-
-}
-
-.description p{
-    font-size: 18px;
-}
-
-.image_class{
-    width: 15%;
-    height: 80%;
-    padding: 20px 10px 0px 20px;
-}
-
-.Container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
-    justify-content: center;
-    align-items: center;
-}
-
-.maincontainer{
-    height: auto;
+.image_container_fifth_page{
+    height: 80vh;
     width: auto;
     display: flex;
-    margin-left: 180px;
-    margin-right: 180px;
+    justify-content: center;
+    align-items: center;
+    
 }
