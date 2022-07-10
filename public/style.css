@@ -1,4 +1,4 @@
-/* 
+
 body {
     padding: 0px;
     margin: 0;
@@ -7,7 +7,29 @@ body {
     width: auto;
 
 
-} */
+}
+
+
+.headings_for_fourth{
+    color:black;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.paragraphs_for_fourth{
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+    
+    
+}
 
 
 
@@ -29,3 +51,59 @@ body {
     align-items: center;
     
 }
+
+
+.design_last_block{
+    height: 381px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin-right: 10px;
+}
+
+.image_sizing_last_sixth{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+    
+}
+
+.paragraphs_for_sixth{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 15px;
+
+}
+.paragraphs_normal{
+    margin-left: 15px;
+    margin-right: 15px;  
+
+}
+
+
+.last_container_flex{
+    height: 400px;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+.footer_design{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+
