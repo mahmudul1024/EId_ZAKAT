@@ -1,10 +1,12 @@
-
-import Page_1 from './Page_1';
+import Pages from './Pages'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 function App() {
   return (
     <div >
-      <Page_1></Page_1>
+    
+    <Pages></Pages> 
     </div>
   );
 }

@@ -3,7 +3,7 @@ body {
     padding: 0px;
     margin: 0;
     scroll-behavior: smooth;
-    height: 100%;
+    height: auto;
     width: auto;
 
     
@@ -11,10 +11,10 @@ body {
 }
 .article_class{
     
-    margin-left: 200px;
-    height: 50%;
-    width: 50%;
-    
+   
+    height: auto;
+    width: auto;
+    margin-left: 150px;
 
     
 }
@@ -22,13 +22,14 @@ body {
 
 
 .first_page_container{
-    width: 100%;
+    width: auto;
     height: 100vh;
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items:center;
     background-repeat: no-repeat; 
+    background-size: cover;
    background-image: url(Images/front_image.jpg);
 
 
@@ -109,18 +110,18 @@ body {
 
 
 .left{
-    margin-left: 200px;
-    height: 60%;
-    width: 50%;
-    padding-right: 50px;
-    padding-left: 30px;
+   
+    height: auto;
+    width: 400px;
+    
+    
 
 }
 
 .right{
-    margin-right: 200px;
-    height: 35%;
-    width: 50%;
+    ;
+    height: auto;
+    width: 400px;
 
 
 }
@@ -129,8 +130,12 @@ body {
     display: flex;
     height: 100vh;
     width: auto;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-flow: wrap row;
+
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 
@@ -190,17 +195,32 @@ body {
 
 
 
+.third_page_first_container_size{
+    height: 120vh;
+    width: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
+}
 
 
 .third_page_container{
     display: flex;
-    height: 100vh;
+    height:120vh;
     width: auto;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
+    flex-flow: wrap row;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
+
 
 .left_third{
    
@@ -208,24 +228,40 @@ body {
     height: 350px;
     width: 400px;
     border-radius: 15px;
-    margin-left: 120px;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    
     
     
 }
 
 .right_third{
 
-height: 50%;
-width: 50%;
-margin-left: 120px;
-margin-right: 120px;
+height: 300px;
+width: 500px;
+
+margin-bottom: 50px;
+
 
 }
 
 
-
+.their_lives_container{
+    height: auto;
+    width: auto;
+}
 
 .headings_for_fourth{
+    color:black;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.headings_for_fourthaaa{
     color:black;
     margin-top: 30px;
     font-size: 40px;
@@ -237,8 +273,7 @@ margin-right: 120px;
     font-weight: bold;
     text-align: center;
     color: black;
-    margin-left: 250px;
-    margin-right: 250px;
+    
     
     
     
@@ -286,6 +321,7 @@ margin-right: 120px;
     width: 15%;
     height: 80%;
     padding: 20px 10px 0px 20px;
+    
 }
 
 .Container{
@@ -295,31 +331,55 @@ margin-right: 120px;
     
     justify-content: center;
     align-items: center;
+
+
 }
 
 .maincontainer{
     height: auto;
     width: auto;
     display: flex;
-    margin-left: 180px;
-    margin-right: 180px;
+    
+    margin-bottom: 50px;
 }
 
 
-.image_sizing_fifth_page{
-    height:350px ;
-    width: 350px;
-    border-radius: 10px;
-    margin-left: 20px;
-}
+
 
 .image_container_fifth_page{
-    height: 80vh;
+    height: auto;
+    width: auto;
+    
+   
+   
+    margin-bottom: 50px;
+    
+}
+.cow_container{
+    height: auto;
     width: auto;
     display: flex;
+    flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    
+
+}
+
+.cowsize{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
+
+.image_sizing_cow{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
 }
 
 
@@ -330,20 +390,17 @@ margin-right: 120px;
     font-size: 40px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-.paragraphs_for_fourth{
-    font-family: 'Hind', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    margin-left: 250px;
-    margin-right: 250px;
-    
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+    width: 500px;
+    position: relative;
     
     
 }
+
+
+
 
 
 
@@ -357,40 +414,50 @@ margin-right: 120px;
     margin-left: 20px;
 }
 
-.image_container_fifth_page{
-    height: 80vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 
 
 .design_last_block{
-    height: 381px;
+    height: auto;
     width: 300px;
     background-color: antiquewhite;
     margin-right: 10px;
+    margin-left:10px ;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .image_sizing_last_sixth{
     height: 180px;
     width: 100%;
-    border-radius: 10px 10px 0px 0px;
 
     
 }
 
-.paragraphs_for_sixth{
+.paragraphs_for_sixth {
     font-size: 20px;
     font-weight: bolder;
     margin-left: 15px;
+    height: auto;
+    /* //edited */
+    width: auto; 
+    
+   
+
+}
+
+.Heading_for_sixth{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 15px;
+    height: 15px;
+    width: auto;
 
 }
 .paragraphs_normal{
     margin-left: 15px;
-    margin-right: 15px;  
+    margin-right: 15px; 
+    margin-top: 40px;
 
 }
 
@@ -410,12 +477,66 @@ margin-right: 120px;
 
 
 .footer_design{
-    height: 100px;
-    width: 100%;
+    height: auto;
+    width: auto;
+    position: relative;
     background-color: black;
     color: red;
     text-align: center;
     padding-top: 10px;
     font-family: 'Lobster', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.sixth_page_container{
+    height: auto;
+    width: auto;
+}
+.sixth_page_container_2{
+    height: 650px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.heading_flex{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paragraph_flex{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    height: auto;
+    width: auto;
+
+
+
+}
+
+.paragraphs_for_fourth{
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    
+    
+    height: auto;
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+   
+    
+    
     
 }
